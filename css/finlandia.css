@@ -179,7 +179,7 @@ a:focus {
 */
 
 .margin-top { margin-top:25px; }
-.margin-top { margin-bottom:15px; }
+.margin-bottom { margin-bottom:15px; }
 .all-caps { text-transform: uppercase; }
 .white-border {
 	border: 10px solid white;
