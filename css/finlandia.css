@@ -140,7 +140,7 @@ a:focus {
 .step.lt-gray {
 	background-color: #DEDEDE;
     color: #615A55;
-    text-shadow: 0 3px 3px rgba(0, 0, 0, .1);;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, .1);
 }
 
 .step.dk-gray {
@@ -181,7 +181,12 @@ a:focus {
 .margin-top { margin-top:25px; }
 .margin-top { margin-bottom:15px; }
 .all-caps { text-transform: uppercase; }
-
+.white-border {
+	border: 10px solid white;
+	-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+	box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+}
 .rotate-ccw {
 	transform:rotate(270deg);
 	-ms-transform:rotate(270deg); /* IE 9 */
